@@ -12,7 +12,7 @@ function getGrade() {
             grade = "A";
         } else if (marks >= 60) {
             grade = "B";
-        } else if (marks >= 50) {
+        } else if (marks >= 49) {
             grade = "C";
         } else if (marks >= 40) {
             grade = "D";
@@ -26,4 +26,4 @@ function getGrade() {
 }
 
 
-getGrade(50);
+getGrade(51);
